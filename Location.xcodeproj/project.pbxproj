@@ -28,6 +28,7 @@
 		3C1E66F22673BBA300A5A395 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1E66EF2673BBA300A5A395 /* LocationViewModel.swift */; };
 		3C1E66F32673BBA300A5A395 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1E66F02673BBA300A5A395 /* LocationModel.swift */; };
 		3C1E66F72673BC3900A5A395 /* NavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1E66F62673BC3900A5A395 /* NavigationStack.swift */; };
+		3C1E66FC2673EE7D00A5A395 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1E66FB2673EE7D00A5A395 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		3C1E66EF2673BBA300A5A395 /* LocationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
 		3C1E66F02673BBA300A5A395 /* LocationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		3C1E66F62673BC3900A5A395 /* NavigationStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationStack.swift; sourceTree = "<group>"; };
+		3C1E66FB2673EE7D00A5A395 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C1E66FC2673EE7D00A5A395 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +75,7 @@
 			children = (
 				3C1E66BE2673BB4D00A5A395 /* Location */,
 				3C1E66BD2673BB4D00A5A395 /* Products */,
+				3C1E66FA2673EE7D00A5A395 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,6 +162,14 @@
 				3C1E66F62673BC3900A5A395 /* NavigationStack.swift */,
 			);
 			path = NavigationStack;
+			sourceTree = "<group>";
+		};
+		3C1E66FA2673EE7D00A5A395 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C1E66FB2673EE7D00A5A395 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
